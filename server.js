@@ -11,7 +11,7 @@ const port = process.env.PORT || 8001;
 const connection_url =
   "mongodb+srv://admin:ZUS9t8TwYT6lGMOS@cluster0.4fdqz.mongodb.net/trinetradb?retryWrites=true&w=majority";
 
-// Middlewares
+// Middlewares connection
 app.use(express.json())
 app.use(Cors());
 
